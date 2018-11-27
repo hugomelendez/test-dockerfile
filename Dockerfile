@@ -1,9 +1,9 @@
 FROM redhat-openjdk18-openshift:1.4
 
-RUN mvn clean package
+#RUN mvn clean package
 
-ADD target/greeter-service-swarm.jar greeter-service-swarm.jar
+#ADD target/greeter-service-swarm.jar greeter-service-swarm.jar
 
 EXPOSE 8080
 
-ENTRYPOINT ["java", "-jar", "greeter-service-swarm.jar"]
+#ENTRYPOINT ["java", "-jar", "greeter-service-swarm.jar"]
