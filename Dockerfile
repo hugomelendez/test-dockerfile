@@ -1,4 +1,4 @@
-FROM openshift/redhat-openjdk18-openshift
+FROM redhat-openjdk18-openshift
 
 RUN mvn clean package
 
