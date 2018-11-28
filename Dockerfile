@@ -1,4 +1,4 @@
-FROM redhat-openjdk18-openshift:1.4
+FROM registry.access.redhat.com/redhat-openjdk-18/openjdk18-openshift:1.4
 
 #RUN mvn clean package
 RUN rpm -qa | grep maven
